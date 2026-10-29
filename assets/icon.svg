@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16233d"/>
+      <stop offset="1" stop-color="#070c17"/>
+    </linearGradient>
+    <linearGradient id="pw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#f43f5e"/>
+    </linearGradient>
+    <linearGradient id="unit" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a3a5c"/>
+      <stop offset="1" stop-color="#1b2742"/>
+    </linearGradient>
+  </defs>
+  <rect x="16" y="16" width="480" height="480" rx="112" fill="url(#bg)"/>
+  <rect x="16.5" y="16.5" width="479" height="479" rx="111.5" fill="none" stroke="#38bdf8" stroke-opacity=".28" stroke-width="3"/>
+  <!-- 两台服务器单元 -->
+  <rect x="96" y="92" width="320" height="92" rx="22" fill="url(#unit)" stroke="#3b4d74" stroke-width="3"/>
+  <rect x="96" y="202" width="320" height="92" rx="22" fill="url(#unit)" stroke="#3b4d74" stroke-width="3"/>
+  <circle cx="140" cy="138" r="12" fill="#22c55e"/>
+  <circle cx="140" cy="248" r="12" fill="#22c55e"/>
+  <rect x="176" y="130" width="120" height="16" rx="8" fill="#38bdf8" fill-opacity=".55"/>
+  <rect x="176" y="240" width="84" height="16" rx="8" fill="#38bdf8" fill-opacity=".55"/>
+  <rect x="96" y="312" width="320" height="92" rx="22" fill="url(#unit)" stroke="#3b4d74" stroke-width="3"/>
+  <circle cx="140" cy="358" r="12" fill="#64748b"/>
+  <rect x="176" y="350" width="60" height="16" rx="8" fill="#38bdf8" fill-opacity=".3"/>
+  <!-- 电源键 -->
+  <circle cx="362" cy="378" r="86" fill="url(#pw)"/>
+  <circle cx="362" cy="378" r="86" fill="none" stroke="#070c17" stroke-width="10"/>
+  <path d="M332 346 a44 44 0 1 0 60 0" fill="none" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+  <line x1="362" y1="328" x2="362" y2="376" stroke="#fff" stroke-width="16" stroke-linecap="round"/>
+</svg>
